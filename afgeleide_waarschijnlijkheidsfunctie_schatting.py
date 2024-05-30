@@ -46,7 +46,6 @@ nulpunt=sympy.nsolve(afgeleide,p,0.5) #beginwaarde 0.5
 print(nulpunt)
 
 #plot waarschijnlijkheid
-
 sympy.plot(waarschijnlijkheid, (p, 0, 1),title='Plot van log waarschijnlijkheidsfunctie', xlabel='p', ylabel='l(p)',color='darkblue',dpi=300)
 plt.show()
 
